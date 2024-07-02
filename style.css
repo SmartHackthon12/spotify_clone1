@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-color: black;
+    color: white;   */
+}
+
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width: 75vw;
+}
+
+.home{
+   
+}
+.home ul li{
+    width: 16px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+      padding-top: 14px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+      padding-top: 14px;
+      padding: 23ox 14px;
+      align-items: center;
+      font-size: 14px;
+}
+
+.heading img{
+    width: 20px;
+}
