@@ -3,8 +3,8 @@
     margin: 0px;
 }
 body{
-    /* background-color: black;
-    color: white;   */
+    background-color: black;
+    color: white;  
 }
 
 .left{
@@ -44,5 +44,110 @@ body{
 }
 
 .heading img{
+
     width: 20px;
+}
+
+.library{
+    min-height: 84vh;
+    position: relative;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.right{
+    margin: 16px 0px;
+    position: relative;
+}
+
+.footer a{
+    color: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+
+.header > *{
+    padding: 20px;
+}
+
+.playlist{
+    padding: 16px;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px;
+     max-height: 70vh;
+    overflow-y: scroll; 
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+.card>*{
+    padding-top: 10px;
+    
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.button>*{
+    margin: 0px 12px ;
+}
+.signupbtn{
+    background-color: rgb(34,34,34);
+    color: rgb(83, 78, 78);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.loginbtn {
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.loginbtn:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(108, 130, 108);
+    width: 100%;
+    padding: 12px;
+}
+
+.songbtn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
